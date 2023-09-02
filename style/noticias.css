@@ -1,0 +1,80 @@
+* {
+    font-family: "Poppins";
+    background-color: #e7e7e7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 7rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+
+}
+
+a,button {
+    color: #691616;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    width: 180px;
+    text-align: center;
+    font-size: 22px;
+    border-color: none;
+}
+
+.links {
+    position: fixed;
+    top: 0;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #691616;
+    height: 70px;
+    width: 100vw;
+}
+
+.linha {
+    background-color: #691616;
+    height: 2px;
+    margin-bottom: 2rem;
+}
+
+.titulo-e-texto {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 600px; /* Define a largura desejada */
+    margin: 0 auto; /* Centraliza horizontalmente usando margens automáticas */
+    text-align: center;
+    border: solid 2px #691616;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+}
+p{
+    margin-top: 2rem;
+}
+
+.exploracaoPetroleo{
+    margin-top: 2rem;
+    width: 360px;
+    border-radius: 5px;
+    color: black;
+}
+
+.exploracaoPaises{
+    margin-top: 2rem;
+    width: 260px;
+    border-radius: 5px;
+    color: black;
+}
+
+
